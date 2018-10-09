@@ -10,12 +10,13 @@ html, body{
     background-size: cover;
     background-position: center center;
     font-family: 'Montserrat', sans-serif;
+    z-index: 0;
 }
 .overlay {
     background: linear-gradient(
         rgba(255, 10, 193, .2), 
         rgba(255, 10, 193, .2)
-      );
+    );
     position: fixed;
     top: 0;
     bottom: 0;
